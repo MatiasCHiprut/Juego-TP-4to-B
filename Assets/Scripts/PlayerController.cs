@@ -46,9 +46,9 @@ public class PlayerController : MonoBehaviour
     }
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Ground")
+        if (col.gameObject.name == "Ground")
         {
-            hasJump = maxJumps;
+            hasJump = 2;
         }
     }
 }
