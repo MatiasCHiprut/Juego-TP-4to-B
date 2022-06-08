@@ -8,12 +8,18 @@ public class LoadScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SceneManager.LoadScene("Level-1");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void OnClick()
+    {
+        SceneManager.LoadScene("Level-1");
     }
 }
+
+
