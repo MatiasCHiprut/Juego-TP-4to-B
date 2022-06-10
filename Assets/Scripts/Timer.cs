@@ -6,12 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    public Text txtTime;
-    public bool timer=false;
-
-    public float MaxTime=0;
-    int limite=45;
-
+    public string leveltoload;
+    public float timer = 45f;
+    public Text timerSeconds;
 
     // Start is called before the first frame update
     void Start()
@@ -22,19 +19,13 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer == false)
+        timer -= Time.deltaTime;
+        timerSeconds.text = timer.ToString("f2");
+        if (timer <= 0)
         {
-            timer = true;
-            StartCoroutine(MaxTime());
-        }
-        if (MaxTime > limite)
-        {
-            SceneManager.LoadScene("You-Lost");
+            SceneManager.LoadScene("Perdiste");
         }
     }
 
-    IEnumerator timer()
-    {
 
-    }
 }
