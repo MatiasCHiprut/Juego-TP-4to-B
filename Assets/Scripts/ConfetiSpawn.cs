@@ -17,7 +17,8 @@ public class ConfetiSpawn : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.C))
         {
-            Instantiate(cubePrefab, transform.position, Quaternion.identity);
+            clone = Instantiate(cubePrefab, transform.position, Quaternion.identity);
+            Destroy(clone, 3);
         }
     }
     
