@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ConfetiSpawn : MonoBehaviour
 {
-    public GameObject cubePrefab;
+    public GameObject cubePrefab,clone;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +22,13 @@ public class ConfetiSpawn : MonoBehaviour
     }
     
 
-    void OnCollision(Collision col)
-    {
-        if (col.gameObject.name == "ConfetiCollisioner")
-        {
-            Instantiate(cubePrefab, transform.position, Quaternion.identity);
-        }
-    }
+    //void OnCollision(Collision col)
+    //{
+    //    if (col.gameObject.name == "ConfetiCollisioner")
+    //    {
+    //        clone = Instantiate(cubePrefab, transform.position, Quaternion.identity);
+    //        Destroy(clone, 3);
+            
+    //    }
+    //}
 }
