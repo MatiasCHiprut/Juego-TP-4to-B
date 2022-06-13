@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level-1.unity
     guid: 75cb585fa4a4aba408f478b94083d7fa
+  - enabled: 1
+    path: Assets/Scenes/You-Lost.unity
+    guid: ba72c3bb19adf134f9f2891c47c9d0d3
   m_configObjects: {}
