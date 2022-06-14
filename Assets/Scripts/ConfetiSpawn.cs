@@ -5,6 +5,7 @@ using UnityEngine;
 public class ConfetiSpawn : MonoBehaviour
 {
     public GameObject cubePrefab,clone;
+    public int cantmaxcubos;
 
     // Start is called before the first frame update
     void Start()
@@ -17,9 +18,15 @@ public class ConfetiSpawn : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            clone = Instantiate(cubePrefab, transform.position, Quaternion.identity);
+            int contador = 0;
+            while (contador < cantmaxcubos)
+            {
+               clone = Instantiate(cubePrefab, transform.position, Quaternion.identity);
+                contador++;
+            }
             Destroy(clone, 3);
         }
+
     }
     
 
