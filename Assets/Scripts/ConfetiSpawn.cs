@@ -15,7 +15,7 @@ public class ConfetiSpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.C))
+        if (Input.GetKey(KeyCode.Space))
         {
             clone = Instantiate(cubePrefab, transform.position, Quaternion.identity);
             Destroy(clone, 3);
