@@ -461,6 +461,7 @@ MonoBehaviour:
   cubePrefab: {fileID: 1523648685857658479, guid: 8d9845f5cbef7f64b98233bcefd963f3,
     type: 3}
   clone: {fileID: 0}
+  cantmaxcubos: 2
 --- !u!4 &1554709331
 Transform:
   m_ObjectHideFlags: 0
