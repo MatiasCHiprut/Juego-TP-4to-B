@@ -18,12 +18,15 @@ public class ConfetiSpawn : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            int contador = 0;
-            while (contador < cantmaxcubos)
-            {
-               clone = Instantiate(cubePrefab, transform.position, Quaternion.identity);
-                contador++;
-            }
+            //int contador = 0;
+            //while (contador < cantmaxcubos)
+            //{
+            //   clone = Instantiate(cubePrefab, transform.position, Quaternion.identity);
+            //    contador++;
+            //}
+            //Destroy(clone, 3);
+
+            clone = Instantiate(cubePrefab, transform.position, Quaternion.identity);
             Destroy(clone, 3);
         }
 
