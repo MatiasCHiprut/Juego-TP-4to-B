@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: d60851f0fc367b248b91dcc337fb5d2c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: mesa
+    100002: //RootNode
+    100004: ruedita1
+    100006: ruedita2
+    100008: ruedita3
+    100010: ruedita4
+    100012: ruedita5
+    100014: ruedita6
+    100016: ruedita7
+    100018: ruedita8
+    400000: mesa
+    400002: //RootNode
+    400004: ruedita1
+    400006: ruedita2
+    400008: ruedita3
+    400010: ruedita4
+    400012: ruedita5
+    400014: ruedita6
+    400016: ruedita7
+    400018: ruedita8
+    2100000: paleta32
+    2100002: paleta32.002
+    2100004: paleta32.003
+    2100006: paleta32.004
+    2100008: paleta32.005
+    2100010: paleta32.006
+    2100012: paleta32.007
+    2100014: paleta32.008
+    2300000: mesa
+    2300002: ruedita1
+    2300004: ruedita2
+    2300006: ruedita3
+    2300008: ruedita4
+    2300010: ruedita5
+    2300012: ruedita6
+    2300014: ruedita7
+    2300016: ruedita8
+    3300000: mesa
+    3300002: ruedita1
+    3300004: ruedita2
+    3300006: ruedita3
+    3300008: ruedita4
+    3300010: ruedita5
+    3300012: ruedita6
+    3300014: ruedita7
+    3300016: ruedita8
+    4300000: ruedita8
+    4300002: ruedita4
+    4300004: ruedita6
+    4300006: ruedita5
+    4300008: ruedita7
+    4300010: ruedita1
+    4300012: ruedita2
+    4300014: ruedita3
+    4300016: mesa
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paleta32
+    second: {fileID: 2100000, guid: ffc54cbd9cea7d04e9bcbfa831e8d1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paleta32.002
+    second: {fileID: 2100000, guid: ffc54cbd9cea7d04e9bcbfa831e8d1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paleta32.003
+    second: {fileID: 2100000, guid: ffc54cbd9cea7d04e9bcbfa831e8d1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paleta32.004
+    second: {fileID: 2100000, guid: ffc54cbd9cea7d04e9bcbfa831e8d1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paleta32.005
+    second: {fileID: 2100000, guid: ffc54cbd9cea7d04e9bcbfa831e8d1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paleta32.006
+    second: {fileID: 2100000, guid: ffc54cbd9cea7d04e9bcbfa831e8d1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paleta32.007
+    second: {fileID: 2100000, guid: ffc54cbd9cea7d04e9bcbfa831e8d1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paleta32.008
+    second: {fileID: 2100000, guid: ffc54cbd9cea7d04e9bcbfa831e8d1b5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paleta32
+    second: {fileID: 2800000, guid: 9df9077e735fa5b4f85be2abb46b6a12, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
