@@ -24,11 +24,11 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(0, 0, MovementSpeed);
+            transform.Translate(-MovementSpeed, 0, 0);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(0, 0, -MovementSpeed);
+            transform.Translate(MovementSpeed, 0, 0);
         }
         if (Input.GetKey(KeyCode.D))
         {
