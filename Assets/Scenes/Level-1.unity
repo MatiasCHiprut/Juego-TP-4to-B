@@ -3116,6 +3116,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 4dde5f8c65b447c4381ee4ff0d7cd360, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dde5f8c65b447c4381ee4ff0d7cd360, type: 3}
 --- !u!1 &1276580291 stripped
@@ -3135,7 +3139,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.009966, y: 2, z: 2.0066671}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0.0049828887, y: 0, z: 0.0033336282}
 --- !u!114 &1276580293
 MonoBehaviour:
